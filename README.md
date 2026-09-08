@@ -52,6 +52,8 @@ Upload → OCR → Extract details → Validate → Risk Score → Result
 
 design prototype sep
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e15fad1-c637-4d5d-9ac7-22e4e9aef79a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/009fc113-619d-4bce-95f8-cbb78ceaa25a" />
+
 
 
 
