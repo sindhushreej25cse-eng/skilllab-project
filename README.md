@@ -56,6 +56,8 @@ design prototype sep 8th figma
 design using AI
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa893a2d-17f5-4dda-98ce-3f5cc92eeb18" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c612d3d-b1ff-404d-b424-c7db969a0cf6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/25ca3ade-be28-45af-9880-63def61601ca" />
+
 
 
 
