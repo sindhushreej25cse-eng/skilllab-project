@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VeriNova AI | Identity Screening</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+
+        <div class="logo-section">
+            <div class="logo">
+                ✓
+            </div>
+
+            <div>
+                <h2>VeriNova <span>AI</span></h2>
+                <p>Identity Screening</p>
+            </div>
+        </div>
+
+        <nav>
+
+            <a href="#" class="nav-link active">
+                <span>⌂</span>
+                Screening
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>▣</span>
+                Results
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>◷</span>
+                Audit Log
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>⚙</span>
+                Settings
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="system-status">
+                <div class="online-dot"></div>
+
+                <div>
+                    <strong>AI Engine Online</strong>
+                    <small>All systems operational</small>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="avatar">U</div>
+
+                <div>
+                    <strong>Demo User</strong>
+                    <small>Screening Analyst</small>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div>
+                <p class="small-title">AI-POWERED VERIFICATION</p>
+
+                <h1>Identity Screening Dashboard</h1>
+
+                <p class="description">
+                    Upload a document and let the AI screening pipeline
+                    analyze identity details, validity and risk.
+                </p>
+            </div>
+
+            <div class="header-right">
+
+                <div class="pipeline-online">
+                    <span></span>
+                    Pipeline Online
+                </div>
+
+                <button class="notification">♢</button>
+
+                <div class="top-avatar">U</div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ================= PIPELINE ================= -->
+        <section class="pipeline">
+
+            <div class="pipeline-line"></div>
+
+            <div class="pipeline-step active">
+                <div class="number">1</div>
+                <strong>Upload</strong>
+                <small>ID / Document</small>
+            </div>
+
+            <div class="pipeline-step">
+                <div class="number">2</div>
+                <strong>OCR</strong>
+                <small>Extract details</small>
+            </div>
+
+            <div class="pipeline-step">
+                <div class="number">3</div>
+                <strong>Validate</strong>
+                <small>Check document</small>
+            </div>
+
+            <div class="pipeline-step">
+                <div class="number">4</div>
+                <strong>AI Scan</strong>
+                <small>Tampering check</small>
+            </div>
+
+            <div class="pipeline-step">
+                <div class="number">5</div>
+                <strong>Risk</strong>
+                <small>Final score</small>
+            </div>
+
+        </section>
+
+
+        <!-- ================= UPLOAD + RISK ================= -->
+        <section class="top-grid">
+
+            <!-- UPLOAD -->
+            <div class="card upload-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <p class="step-label">STEP 01</p>
+
+                        <h2>Upload ID / Document</h2>
+
+                        <p>
+                            Use a clear document image for the best OCR result.
+                        </p>
+                    </div>
+
+                    <span class="secure">🔒 Secure</span>
+
+                </div>
+
+
+                <label class="upload-area">
+
+                    <input type="file">
+
+                    <div class="upload-icon">
+                        ↑
+                    </div>
+
+                    <h3>Drag & Drop Your Document</h3>
+
+                    <p>
+                        or <span>browse from device</span>
+                    </p>
+
+                    <small>
+                        JPG, PNG or PDF • Maximum 10 MB
+                    </small>
+
+                </label>
+
+
+                <div class="document-types">
+
+                    <button class="document active">
+                        ▣ Driver's License
+                    </button>
+
+                    <button class="document">
+                        ▤ Passport
+                    </button>
+
+                    <button class="document">
+                        ▥ National ID
+                    </button>
+
+                </div>
+
+
+                <div class="privacy">
+
+                    <span>✓</span>
+
+                    <p>
+                        <strong>Demo Mode:</strong>
+                        Use synthetic/sample documents while developing.
+                        Do not upload real identity documents to an
+                        unprotected demo.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RISK SCORE -->
+            <div class="card score-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <p class="step-label">LIVE STATUS</p>
+
+                        <h2>Screening Overview</h2>
+                    </div>
+
+                    <span class="online">ONLINE</span>
+
+                </div>
+
+
+                <div class="risk-circle">
+
+                    <div class="circle-content">
+
+                        <strong>LOW</strong>
+
+                        <span>Risk Level</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="score">
+                    <strong>18</strong>
+                    <span>/100</span>
+                </div>
+
+                <p class="score-text">
+                    Overall Risk Score
+                </p>
+
+
+                <div class="mini-results">
+
+                    <div>
+                        <span class="check">✓</span>
+
+                        <p>OCR Extraction</p>
+
+                        <strong>Passed</strong>
+                    </div>
+
+                    <div>
+                        <span class="check">✓</span>
+
+                        <p>Document Validation</p>
+
+                        <strong>Passed</strong>
+                    </div>
+
+                    <div>
+                        <span class="check">✓</span>
+
+                        <p>Tampering Detection</p>
+
+                        <strong>Passed</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= VERIFICATION RESULTS ================= -->
+        <section class="card results">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="step-label">STEP 02 – 04</p>
+
+                    <h2>AI Verification Results</h2>
+
+                    <p>
+                        OCR, validation and AI tampering analysis results.
+                    </p>
+                </div>
+
+                <span class="verified">
+                    ✓ Verification Complete
+                </span>
+
+            </div>
+
+
+            <div class="results-grid">
+
+
+                <!-- OCR -->
+                <div class="result-box">
+
+                    <div class="result-title">
+
+                        <div class="result-icon">
+                            Aa
+                        </div>
+
+                        <div>
+                            <h3>OCR — Extracted Details</h3>
+                            <span>Confidence: 98.6%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="fields">
+
+                        <div class="field">
+                            <label>Full Name</label>
+                            <strong>Sample User</strong>
+                        </div>
+
+                        <div class="field">
+                            <label>Date of Birth</label>
+                            <strong>01 Jan 1999</strong>
+                        </div>
+
+                        <div class="field">
+                            <label>Document Type</label>
+                            <strong>Driver's License</strong>
+                        </div>
+
+                        <div class="field">
+                            <label>Document ID</label>
+                            <strong>DL-XXXX-2048</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VALIDATION -->
+                <div class="result-box">
+
+                    <div class="result-title">
+
+                        <div class="result-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <h3>Document Validation</h3>
+                            <span>Rule-based checks</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="validation-list">
+
+                        <div class="validation">
+
+                            <span class="check">✓</span>
+
+                            <div>
+                                <strong>Format Check</strong>
+                                <small>Valid structure detected</small>
+                            </div>
+
+                            <b>PASS</b>
+
+                        </div>
+
+
+                        <div class="validation">
+
+                            <span class="check">✓</span>
+
+                            <div>
+                                <strong>Expiry Check</strong>
+                                <small>Document within validity period</small>
+                            </div>
+
+                            <b>PASS</b>
+
+                        </div>
+
+
+                        <div class="validation">
+
+                            <span class="check">✓</span>
+
+                            <div>
+                                <strong>Required Fields</strong>
+                                <small>All expected fields found</small>
+                            </div>
+
+                            <b>PASS</b>
+
+                        </div>
+
+
+                        <div class="validation">
+
+                            <span class="check">✓</span>
+
+                            <div>
+                                <strong>Cross Document Match</strong>
+                                <small>No mismatch detected</small>
+                            </div>
+
+                            <b>PASS</b>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TAMPERING -->
+                <div class="result-box">
+
+                    <div class="result-title">
+
+                        <div class="result-icon">
+                            ◈
+                        </div>
+
+                        <div>
+                            <h3>AI Tampering Detection</h3>
+                            <span>OpenCV / Machine Learning</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="confidence">
+
+                        <div class="confidence-label">
+
+                            <span>Authenticity Confidence</span>
+
+                            <strong>94%</strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-fill"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tampering-results">
+
+                        <span>✓ Image Consistency</span>
+                        <span>✓ Text Regions</span>
+                        <span>✓ Edge Analysis</span>
+                        <span>✓ Compression Check</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BOTTOM ================= -->
+        <section class="bottom-grid">
+
+
+            <!-- RISK ENGINE -->
+            <div class="card risk-engine">
+
+                <div class="section-header">
+
+                    <div>
+                        <p class="step-label">STEP 05</p>
+                        <h2>Risk Engine</h2>
+                    </div>
+
+                    <span class="risk-low">
+                        LOW RISK
+                    </span>
+
+                </div>
+
+
+                <div class="risk-scale">
+
+                    <div class="scale-labels">
+                        <span>LOW</span>
+                        <span>MEDIUM</span>
+                        <span>HIGH</span>
+                    </div>
+
+                    <div class="risk-progress">
+
+                        <i></i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="risk-factors">
+
+                    <div class="factor">
+
+                        <span class="factor-icon">✓</span>
+
+                        <div>
+                            <strong>Valid Document</strong>
+                            <small>No validation issues</small>
+                        </div>
+
+                        <b>+0</b>
+
+                    </div>
+
+
+                    <div class="factor">
+
+                        <span class="factor-icon">✓</span>
+
+                        <div>
+                            <strong>OCR Confidence</strong>
+                            <small>High extraction confidence</small>
+                        </div>
+
+                        <b>+2</b>
+
+                    </div>
+
+
+                    <div class="factor">
+
+                        <span class="factor-icon">✓</span>
+
+                        <div>
+                            <strong>Tampering Signals</strong>
+                            <small>No significant anomaly</small>
+                        </div>
+
+                        <b>+0</b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACTIVITY -->
+            <div class="card activity-card">
+
+                <div class="section-header">
+
+                    <div>
+                        <p class="step-label">SYSTEM</p>
+                        <h2>Screening Activity</h2>
+                    </div>
+
+                    <button class="view">
+                        View All →
+                    </button>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <span class="activity-icon">↑</span>
+
+                    <div>
+                        <strong>Document Uploaded</strong>
+                        <small>Just now</small>
+                    </div>
+
+                    <b>Done</b>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <span class="activity-icon">Aa</span>
+
+                    <div>
+                        <strong>OCR Extraction</strong>
+                        <small>Completed in 1.2 seconds</small>
+                    </div>
+
+                    <b>98.6%</b>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <span class="activity-icon">✓</span>
+
+                    <div>
+                        <strong>Validation Checks</strong>
+                        <small>4 checks passed</small>
+                    </div>
+
+                    <b>Passed</b>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <span class="activity-icon">◈</span>
+
+                    <div>
+                        <strong>Risk Assessment</strong>
+                        <small>Final classification</small>
+                    </div>
+
+                    <b>Low</b>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <span>
+                VeriNova AI • AI-Based Fake Identity & Document Screening
+            </span>
+
+            <span>
+                Frontend MVP
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
