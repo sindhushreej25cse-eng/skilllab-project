@@ -1,6 +1,13 @@
 # skilllab-project-
 SINDHUSHREE.J - 1CX25CS207
-Problem statement - AI Based Fake Identity & Document Screening system
+problem statement: AI - based fake identity and screening system
+Technologies
+Frontend: React + CSS
+Backend: Python + FastAPI
+Database: SQLite / PostgreSQL
+OCR: Tesseract / PaddleOCR
+AI: Python + OpenCV + Scikit-learn
+Version Control: GitHub
 Requirements:
 WORK FLOW:
 User
